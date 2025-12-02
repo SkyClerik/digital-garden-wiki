@@ -1,8 +1,12 @@
 site_name: Dwarf Clash Wiki
+site_author: SkyClerik
 theme:
   name: material
+  language: ru
   features:
     - navigation.tracking
+    - search.suggest
+    - search.highlight
   palette: 
     # Палитра для светлой темы
     - scheme: default
@@ -19,7 +23,11 @@ theme:
         icon: material/brightness-4
         name: Переключить на светлую тему
 plugins:
-  - search
+  - search:
+      lang:
+        - en
+        - ru
+      separator: '[\s\-\.]+'
   - awesome-pages
 markdown_extensions:
   - admonition
