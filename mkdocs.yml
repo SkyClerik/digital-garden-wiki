@@ -11,6 +11,21 @@ theme:
   name: material
   features:
     - navigation.tracking
+  palette: 
+    # Палитра для светлой темы
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Переключить на темную тему
+    # Палитра для темной темы
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Переключить на светлую тему
 markdown_extensions:
   - admonition
   - pymdownx.details
