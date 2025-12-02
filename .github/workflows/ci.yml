@@ -22,8 +22,8 @@ jobs:
         with:
           python-version: 3.x # Используем Python 3
 
-      - name: Install MkDocs
-        run: pip install mkdocs-material # Устанавливаем MkDocs и тему Material
+      - name: Install MkDocs and Extensions
+        run: pip install mkdocs-material "pymdown-extensions[extra]" # Устанавливаем MkDocs, тему и все расширения
 
       - name: Build and Deploy
         run: mkdocs gh-deploy --force # Собираем сайт и публикуем на gh-pages
