@@ -3,6 +3,9 @@ backend:
   repo: SkyClerik/dwarf-clash-decap-cms-wiki
   branch: main
   site_domain: guileless-fudge-4d7b03.netlify.app
+  oauth:
+    provider: github
+    app_id: Ov23liUwLeOBvryH17su
 
 media_folder: "assets/images"
 public_folder: "/assets/images"
