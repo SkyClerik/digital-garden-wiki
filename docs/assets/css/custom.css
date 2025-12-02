@@ -1,0 +1,7 @@
+.md-nav__item.secret-item {
+  display: none !important;
+}
+
+body[data-auth="true"] .md-nav__item.secret-item {
+  display: block !important;
+}

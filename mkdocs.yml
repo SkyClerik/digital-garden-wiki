@@ -22,6 +22,12 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Переключить на светлую тему
+  custom_dir: overrides
+extra_css:
+  - assets/css/custom.css
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/sweetalert2@11
+  - assets/js/custom.js
 plugins:
   - search:
       lang:
